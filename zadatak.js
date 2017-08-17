@@ -1,76 +1,76 @@
 // 1)
 
-var prviBroj = parseInt(prompt('Unesite prvi broj'));
-var drugiBroj = parseInt(prompt('Unesite drugi broj'));
+var firstNumber = parseInt(prompt('Enter the first number'));
+var secondNumber = parseInt(prompt('Enter the second number'));
 
-if(prviBroj > drugiBroj) {
-    console.log('prvi broj je veci od drugog');
-} else if (prviBroj < drugiBroj) {
-    console.log('drugi broj je veci od prvog');
+if(firstNumber > secondNumber) {
+    console.log('The first number is greater than the second number');
+} else if (firstNumber < secondNumber) {
+    console.log('The second number is greater than the first number');
 } else {
-    console.log('brojevi su jednaki');
+    console.log('The numbers are the same');
 }
 
 // ________________________________________________________________________
 // 2)
 
-var prviBroj = parseInt(prompt('Unesite prvi broj'));
-var drugiBroj = parseInt(prompt('Unesite drugi broj'));
+var firstNumber = parseInt(prompt('Enter the first number'));
+var secondNumber = parseInt(prompt('Enter the second number'));
 
-var zbir = prviBroj + drugiBroj;
-var razlika = prviBroj - drugiBroj;
-var proizvod = prviBroj * drugiBroj;
-var kolicnik = prviBroj / drugiBroj;
+var sum = firstNumber + secondNumber;
+var difference = firstNumber - secondNumber;
+var product = firstNumber * secondNumber;
+var quotient = firstNumber / secondNumber;
 
 
-if((zbir > 99)&&(zbir < 1000)) {
-    console.log('zbir je: ' +zbir);
+if((sum > 99)&&(sum < 1000)) {
+    console.log('The sum is: ' +sum);
 }
-if((razlika > 99)&&(razlika < 1000)) {
-    console.log('razlika je: ' +razlika);
+if((difference > 99)&&(difference < 1000)) {
+    console.log('The difference is: ' +difference);
 }
-if((proizvod > 99)&&(proizvod < 1000)) {
-    console.log('proizvod je: ' +proizvod);
+if((product > 99)&&(product < 1000)) {
+    console.log('The product is: ' +product);
 }
-if((kolicnik > 99)&&(kolicnik < 1000)) {
-    console.log('kolicnik je: ' +kolicnik);
+if((quotient > 99)&&(quotient < 1000)) {
+    console.log('The quotient is: ' +quotient);
 }
 
 // ________________________________________________________________________
 // 3)
 
-var prviBroj = (parseInt(Math.random() * 100));
-var drugiBroj = (parseInt(Math.random() * 100));
+var firstNumber = (parseInt(Math.random() * 100));
+var secondNumber = (parseInt(Math.random() * 100));
 
-var zbir = parseInt(prompt('Koliko iznosi: ' + prviBroj + "+" + drugiBroj));
+var sum = parseInt(prompt('How much is it: ' + firstNumber + "+" + secondNumber));
 
-if(prviBroj + drugiBroj == zbir) {
-    console.log('tacan odgovor');
+if(firstNumber + secondNumber == sum) {
+    console.log('Correct answer');
 } else {
-    console.log(prviBroj + drugiBroj);
+    console.log(firstNumber + secondNumber);
 }
 
 // ________________________________________________________________________
 // 4)
 
-var sat = prompt("Unesite vrijednost sati")
+var hour = prompt("Enter the hour value")
 
-if((sat < 9)&&(sat >=0)) {
-    console.log('Dobro jutro');
+if((hour < 9)&&(hour >=0)) {
+    console.log('Good morning');
 }
-if((sat > 8)&&(sat < 19)) {
-    console.log('Dobar dan');
+if((hour > 8)&&(hour < 19)) {
+    console.log('Good afternoon');
 }
-if((sat > 18)&&(sat < 24)) {
-    console.log('Dobro vece');
+if((hour > 18)&&(hour < 24)) {
+    console.log('Good evening');
 }
 
 // ________________________________________________________________________
 // 5)
 
-var a = parseInt(prompt('Unesite prvi broj'));
-var b = parseInt(prompt('Unesite drugi broj'));
-var c = parseInt(prompt('Unesite treci broj'));
+var a = parseInt(prompt('Enter the first number'));
+var b = parseInt(prompt('Enter the second number'));
+var c = parseInt(prompt('Enter the third number'));
 
 if(a>b && a>c) {
     if(b>c) {
